@@ -23,5 +23,9 @@ public class Etudiant{
 	 public void setPrenomEtudiant(String prenomEtudiant){
 		 this.prenomEtudiant = prenomEtudiant;
 	 }
+	 //Methodes
+	 public void affiche(){
+		 system.out.println(this.nomEtudiant + " " + this.prenomEtudiant);
+	 }
 	 }
 }

@@ -29,5 +29,8 @@ public class Employe{
 	 public void setPrenom(String prenom){
 		 this.prenom = prenom;
 	 }
-	 
+	 //Methodes
+	 public void affiche(){
+		 system.out.println(this.nom + " " + this.prenom);
+	 }
 }
