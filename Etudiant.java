@@ -27,5 +27,7 @@ public class Etudiant{
 	 public void affiche(){
 		 system.out.println(this.nomEtudiant + " " + this.prenomEtudiant);
 	 }
+	 	 public void afficherInfo(){
+			system.out.println("Bienvenue dans la classe Etudiant");
 	 }
 }

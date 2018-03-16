@@ -33,4 +33,7 @@ public class Employe{
 	 public void affiche(){
 		 system.out.println(this.nom + " " + this.prenom);
 	 }
+	 public void afficherInfo(){
+			system.out.println("Bienvenue dans la classe Employé");
+	 }
 }
