@@ -9,6 +9,12 @@ public class Employe{
 		this.nom = nom;
 		this.prenom = prenom;
 	 }
+	 
+	 public Employe(String nom){
+		this.nom = nom;
+	
+	 }
+	 
 	 //Getters et setters
 	 public String getNom(){
 		 return this.nom;
